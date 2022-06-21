@@ -23,7 +23,7 @@ main{
     align-items: center;
     background-color: rgb(255, 253, 253);
     
-    background-color : rgb(48, 167, 18);
+    background-color : #198754;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -101,7 +101,7 @@ span label:hover{
     -webkit-transform: scale(1.12);
     transform: scale(1.12);
     color: rgb(255, 255, 255);
-    background-color:rgb(175, 238, 175) ;
+    background-color:#198754 ;
 }
 
 input[type="radio"] {
@@ -111,7 +111,7 @@ input[type="radio"] {
 
 
 input[type=radio]:checked ~ .option {
-  background: rgb(175, 238, 175);
+  background: #198754;
 }
 
 .next-button-container{
@@ -132,7 +132,8 @@ input[type=radio]:checked ~ .option {
     outline: none;
 }
 .next-button-container button:hover{
-    background-color: rgb(175, 238, 175);
+    background-color: #198754;
+    color: white;
 }
 
 .modal-container{
