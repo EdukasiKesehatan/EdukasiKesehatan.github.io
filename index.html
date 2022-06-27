@@ -216,7 +216,7 @@ Mata Kuliah : Pemrograman Web 1
 
 
     <!-- Bagian Tentang -->
-      <div class="container-fluid pt-5 pb-5" id="tentang">
+      <div class="container-fluid pt-5 pb-5 bg-light" id="tentang">
         <div class="container"><h1 class="display-3 text-center">TENTANG</h1>
         <div class="clearfix pt-5">
             <img src="about.jpg" class="col-md-4 float-md-end mb-10 crop-img text-center" width="300" height="300"/>
@@ -264,54 +264,7 @@ Mata Kuliah : Pemrograman Web 1
     <!-- Akhir Staff -->
 
 
-    <!-- Data Covid -->
-      <div class="container" id="datacovid">
-        <div class="row mt-4">
-          <div class="col-md-12">
-            <div class="alert alert-primary" role="alert">
-              <strong>Update</strong><i> Data virus corona di Indonesia</i>
-            </div>
-          </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-md-3 text-white">
-                <div class="card bg-primary p-3 mb-5 shadow rounded">
-                    <div class="card-body">
-                        <h4 class="card-title text-center"><i class="fa fa-frown-open"></i> Kasus</h4>
-                        <p class="card-text text-center" id="kasus"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 text-white">
-                <div class="card bg-warning p-3 mb-5 shadow rounded">
-                    <div class="card-body">
-                        <h4 class="card-title text-center"><i class="fa fa-grin-alt"></i> Dirawat</h4>
-                        <p class="card-text text-center" id="aktif"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 text-white">
-                <div class="card bg-danger p-3 mb-5 shadow rounded">
-                    <div class="card-body">
-                        <h4 class="card-title text-center"><i class="fa fa-frown-open"></i> Meninggal</h4>
-                        <p class="card-text text-center" id="meninggal"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 text-white">
-                <div class="card bg-success p-3 mb-5 shadow rounded">
-                    <div class="card-body">
-                        <h4 class="card-title text-center"><i class="fa fa-grin-alt"></i> Sembuh</h4>
-                        <p class="card-text text-center" id="sembuh"></p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-      </div>
-    <!-- Akhir Data Covid -->
-
-
+   
     <!--Kontak Kami-->
       <div class="containter-fluid pt-5 pb-5 bg-light kontak">
         <div class="container">
@@ -369,21 +322,7 @@ Mata Kuliah : Pemrograman Web 1
     </script>
 
 
-    <!-- js Covid -->
-    <script type="text/javascript">
-
-      fetch('https://corona.lmao.ninja/v2/countries/INDONESIA')
-      .then ((response)=>{
-          return response.json();
-      })
-      .then((data)=>{
-          document.getElementById("kasus").innerHTML = data.cases;
-          document.getElementById("aktif").innerHTML = data.active;
-          document.getElementById("meninggal").innerHTML = data.deaths;
-          document.getElementById("sembuh").innerHTML = data.recovered;
-      })
-    </script>
-    <!-- Akhir js covid -->
+   
 
     <!-- Js Kalkulator BMI -->
     <script type="text/javascript">
