@@ -1,6 +1,6 @@
 
 header{
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3)),url('foto1.jpg');
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3)),url('../assets/pictures/healthy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 280px;
@@ -43,7 +43,7 @@ article h2{
 
 
  nav ul li a:hover{
-    background-color: #026efd;
+    background-color: #006eff;
  }
 
 
@@ -102,7 +102,7 @@ input[type="range"]::-webkit-slider-thumb{
     font-weight: 700;
     letter-spacing: 1px;
     text-align: center;
-    color: #0be881;
+    color: #00ff62;
 }
 #category{
     font-size: 18px;
@@ -110,6 +110,6 @@ input[type="range"]::-webkit-slider-thumb{
     letter-spacing: 1px;
 }
 .display{
-box-shadow: 0 0 20px rgba(0,139,253,0.25);
+box-shadow: 0 0 20px rgba(0, 145, 255, 0.25);
 margin-bottom: 60px;
 }
